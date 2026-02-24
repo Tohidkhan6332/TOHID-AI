@@ -1,1 +1,686 @@
-const _0x8d364=_0x3cf4;(function(_0x1b717b,_0x28d0f2){const _0xcda138=_0x3cf4,_0x50f18f=_0x1b717b();while(!![]){try{const _0x5edce0=-parseInt(_0xcda138(0x18f))/(0x17f4+-0x1*-0x1c4b+-0x343e)+-parseInt(_0xcda138(0x1bf))/(-0xb5*-0xa+0x8e4+-0xff4*0x1)+parseInt(_0xcda138(0x190))/(0x23e0+0x1117*-0x2+-0x1af)*(-parseInt(_0xcda138(0x160))/(0x252d*-0x1+-0x2259+0x478a))+parseInt(_0xcda138(0x161))/(-0xb12*-0x3+0x1*-0x1f99+0x6*-0x44)*(parseInt(_0xcda138(0x188))/(0x1*-0x12c8+0x1*-0x1b57+0x2e25))+parseInt(_0xcda138(0x1c7))/(0x31*0x1e+0xef*0x14+-0x1*0x1863)*(-parseInt(_0xcda138(0x1b4))/(0xb8f*-0x3+-0x2*-0x89e+-0x1179*-0x1))+parseInt(_0xcda138(0x1c6))/(0xee*-0x7+-0x1832+-0x2b*-0xb7)+parseInt(_0xcda138(0x1aa))/(0xad*-0x23+0x210d+-0x95c)*(parseInt(_0xcda138(0x1be))/(-0xd00+-0x1521*-0x1+-0x816));if(_0x5edce0===_0x28d0f2)break;else _0x50f18f['push'](_0x50f18f['shift']());}catch(_0x4e8b23){_0x50f18f['push'](_0x50f18f['shift']());}}}(_0x1c8e,0x1*-0x8cbc3+0xbd2da+0x4c52b));import _0x35ecfa from'dotenv';function _0x3cf4(_0x1a9593,_0x3f54fd){const _0x429ea=_0x1c8e();return _0x3cf4=function(_0x16d542,_0xac5457){_0x16d542=_0x16d542-(0x180c+-0x1*-0x36e+-0xb5*0x25);let _0x5735fa=_0x429ea[_0x16d542];return _0x5735fa;},_0x3cf4(_0x1a9593,_0x3f54fd);}import _0xdfe138 from'chalk';import{spawn}from'child_process';import _0x4e2459 from'express';import _0x33bfc1 from'figlet';import _0x2c2902 from'fs';import _0xbc5b8f from'node-fetch';import _0x4ab337 from'path';import{fileURLToPath}from'url';_0x33bfc1(_0x8d364(0x1b1),{'font':_0x8d364(0x155),'horizontalLayout':_0x8d364(0x187),'verticalLayout':_0x8d364(0x187)},(_0x9cbe7f,_0x4f0550)=>{const _0x571009=_0x8d364,_0x260578={'eJXTU':_0x571009(0x167)+_0x571009(0x1d2)};if(_0x9cbe7f){console[_0x571009(0x1b9)](_0xdfe138[_0x571009(0x176)](_0x260578[_0x571009(0x1a4)],_0x9cbe7f));return;}console[_0x571009(0x198)](_0xdfe138[_0x571009(0x159)](_0x4f0550));}),_0x33bfc1(_0x8d364(0x1b5),{'horizontalLayout':_0x8d364(0x187),'verticalLayout':_0x8d364(0x187)},(_0x5465d5,_0x817d55)=>{const _0x390a99=_0x8d364,_0x4a4a30={'kubGz':_0x390a99(0x167)+_0x390a99(0x1d2)};if(_0x5465d5){console[_0x390a99(0x1b9)](_0xdfe138[_0x390a99(0x176)](_0x4a4a30[_0x390a99(0x1bd)],_0x5465d5));return;}console[_0x390a99(0x198)](_0xdfe138[_0x390a99(0x194)](_0x817d55));});const app=_0x4e2459(),port=process[_0x8d364(0x151)][_0x8d364(0x175)]||-0x1c37+-0x411+0x67a*0x8,__filename=fileURLToPath(import.meta[_0x8d364(0x185)]),__dirname=_0x4ab337[_0x8d364(0x166)](__filename);app[_0x8d364(0x17c)](_0x4e2459[_0x8d364(0x19e)](_0x4ab337[_0x8d364(0x16b)](__dirname,_0x8d364(0x158)))),app[_0x8d364(0x1bc)]('/',(_0x195e46,_0x26bce0)=>{const _0x5719fc=_0x8d364,_0x514592={'mVYOT':_0x5719fc(0x19f)+'ml'};_0x26bce0[_0x5719fc(0x1ce)](_0x514592[_0x5719fc(0x195)]);}),app[_0x8d364(0x1a7)](port,()=>{const _0x2875f7=_0x8d364;console[_0x2875f7(0x198)](_0xdfe138[_0x2875f7(0x181)](_0x2875f7(0x1d1)+port+_0x2875f7(0x19a)));});let isRunning=![];async function start(_0xe2639d){const _0x2e7f09=_0x8d364,_0x18808f={'hgZCE':_0x2e7f09(0x1cf),'FxfHA':_0x2e7f09(0x196),'hsPve':function(_0x52704f,_0x1eded7){return _0x52704f(_0x1eded7);},'NtSua':_0x2e7f09(0x191),'WGqBK':function(_0x373654,_0x1a135c){return _0x373654===_0x1a135c;},'enSQG':function(_0xc1db99,_0x2fdf9e){return _0xc1db99(_0x2fdf9e);},'MZITU':_0x2e7f09(0x1c4)+_0x2e7f09(0x165)+_0x2e7f09(0x18a),'JbPLx':_0x2e7f09(0x193)+_0x2e7f09(0x1ac)+_0x2e7f09(0x189)+_0x2e7f09(0x1cc),'XPqzW':function(_0x8b2062,_0xe751f5,_0x36a497,_0x573588){return _0x8b2062(_0xe751f5,_0x36a497,_0x573588);},'SRIIq':_0x2e7f09(0x171),'nBNjh':_0x2e7f09(0x1ad),'DUEMS':_0x2e7f09(0x186),'KOFBS':_0x2e7f09(0x1b0),'LErXC':_0x2e7f09(0x1b9),'gzBRV':_0x2e7f09(0x16a)};if(isRunning)return;isRunning=!![];const _0x30400a=new URL(import.meta[_0x2e7f09(0x185)])[_0x2e7f09(0x1a3)],_0x4cfad5=[_0x4ab337[_0x2e7f09(0x16b)](_0x4ab337[_0x2e7f09(0x166)](_0x30400a),_0xe2639d),...process[_0x2e7f09(0x1c2)][_0x2e7f09(0x18b)](-0x9*-0x3a+-0x56f*-0x5+0x17*-0x145)],_0x474ae3=_0x18808f[_0x2e7f09(0x1ae)](spawn,process[_0x2e7f09(0x1c2)][0x4de*0x8+-0x1*-0xc1b+0xb3*-0x49],_0x4cfad5,{'stdio':[_0x18808f[_0x2e7f09(0x18c)],_0x18808f[_0x2e7f09(0x18c)],_0x18808f[_0x2e7f09(0x18c)],_0x18808f[_0x2e7f09(0x17d)]]});_0x474ae3['on'](_0x18808f[_0x2e7f09(0x192)],_0x50bf6f=>{const _0x3f7298=_0x2e7f09;console[_0x3f7298(0x198)](_0xdfe138[_0x3f7298(0x17b)](_0x3f7298(0x1b8)+_0x50bf6f));switch(_0x50bf6f){case _0x18808f[_0x3f7298(0x156)]:_0x474ae3[_0x3f7298(0x1d3)](),isRunning=![],start[_0x3f7298(0x157)](this,arguments);break;case _0x18808f[_0x3f7298(0x153)]:_0x474ae3[_0x3f7298(0x1c3)](process[_0x3f7298(0x196)]());break;}}),_0x474ae3['on'](_0x18808f[_0x2e7f09(0x177)],_0x3bbca7=>{const _0x1c2b4d=_0x2e7f09,_0x2ba0cb={'qGORs':function(_0x498de0,_0x1eb483){const _0x4f0020=_0x3cf4;return _0x18808f[_0x4f0020(0x1a8)](_0x498de0,_0x1eb483);},'RDsFw':_0x18808f[_0x1c2b4d(0x15d)]};isRunning=![],console[_0x1c2b4d(0x1b9)](_0xdfe138[_0x1c2b4d(0x176)](_0x1c2b4d(0x1af)+_0x1c2b4d(0x15f)+_0x3bbca7));if(_0x18808f[_0x1c2b4d(0x19b)](_0x3bbca7,0x21ae+-0x5*0x151+-0x1b19))return;_0x2c2902[_0x1c2b4d(0x1a1)](_0x4cfad5[-0x67b+0x13ee+-0x1*0xd73],()=>{const _0x2ca2b0=_0x1c2b4d;_0x2c2902[_0x2ca2b0(0x173)+'e'](_0x4cfad5[0x927+-0x18b3+0xf8c]),_0x2ba0cb[_0x2ca2b0(0x1ba)](start,_0x2ba0cb[_0x2ca2b0(0x184)]);});}),_0x474ae3['on'](_0x18808f[_0x2e7f09(0x1d0)],_0x30638b=>{const _0x37d936=_0x2e7f09;console[_0x37d936(0x1b9)](_0xdfe138[_0x37d936(0x176)](_0x37d936(0x1c9)+_0x30638b)),_0x474ae3[_0x37d936(0x1d3)](),isRunning=![],_0x18808f[_0x37d936(0x19d)](start,_0x18808f[_0x37d936(0x15d)]);});const _0x62aa13=_0x4ab337[_0x2e7f09(0x16b)](_0x4ab337[_0x2e7f09(0x166)](_0x30400a),_0x18808f[_0x2e7f09(0x1c5)]);_0x2c2902[_0x2e7f09(0x17f)](_0x62aa13,async(_0x2c99b3,_0xe6a9b)=>{const _0x26c757=_0x2e7f09;if(_0x2c99b3){console[_0x26c757(0x1b9)](_0xdfe138[_0x26c757(0x176)](_0x26c757(0x183)+_0x26c757(0x18e)+_0x26c757(0x1ca)+_0x2c99b3));return;}console[_0x26c757(0x198)](_0xdfe138[_0x26c757(0x159)](_0x26c757(0x15e)+_0xe6a9b[_0x26c757(0x169)]+_0x26c757(0x179)));try{const {default:_0x36d340}=await import(_0x18808f[_0x26c757(0x16f)]),_0x261b46=(await _0x36d340[_0x26c757(0x180)+_0x26c757(0x1a2)+_0x26c757(0x172)]())[_0x26c757(0x1b2)];console[_0x26c757(0x198)](_0xdfe138[_0x26c757(0x159)](_0x26c757(0x1ab)+_0x26c757(0x16e)+'n\x20'+_0x261b46));}catch(_0x4fe6a5){console[_0x26c757(0x1b9)](_0xdfe138[_0x26c757(0x176)](_0x18808f[_0x26c757(0x162)]));}});}start(_0x8d364(0x191)),process['on'](_0x8d364(0x154)+_0x8d364(0x15a),()=>{const _0xf3a3ea=_0x8d364,_0x2c92d6={'cfXQf':function(_0x3a04a1,_0x16c1ef){return _0x3a04a1(_0x16c1ef);},'jzbLF':_0xf3a3ea(0x191)};console[_0xf3a3ea(0x1b9)](_0xdfe138[_0xf3a3ea(0x176)](_0xf3a3ea(0x16c)+_0xf3a3ea(0x1c8)+_0xf3a3ea(0x1b7)+_0xf3a3ea(0x1bb)+_0xf3a3ea(0x168))),_0x2c92d6[_0xf3a3ea(0x182)](start,_0x2c92d6[_0xf3a3ea(0x1b6)]);}),process['on'](_0x8d364(0x1b0),_0x527b55=>{const _0x374c47=_0x8d364,_0x4d7a49={'yGJPh':function(_0x57d0fc,_0x3797e2){return _0x57d0fc(_0x3797e2);},'aaoEU':_0x374c47(0x191)};console[_0x374c47(0x1b9)](_0xdfe138[_0x374c47(0x176)](_0x374c47(0x164)+_0x374c47(0x1a9)+_0x527b55)),console[_0x374c47(0x1b9)](_0xdfe138[_0x374c47(0x176)](_0x374c47(0x1a6)+_0x374c47(0x17e))),_0x4d7a49[_0x374c47(0x163)](start,_0x4d7a49[_0x374c47(0x15c)]);});function keepAlive(){const _0x4b3fe3=_0x8d364,_0x2e63f8={'NgsFP':function(_0x8ea7a0,_0x5ef735){return _0x8ea7a0(_0x5ef735);},'amdOD':_0x4b3fe3(0x19c)+_0x4b3fe3(0x1c1)+_0x4b3fe3(0x1a0)+_0x4b3fe3(0x1cd)+'..','hKNQw':_0x4b3fe3(0x178)+_0x4b3fe3(0x1b3)+_0x4b3fe3(0x15b)+_0x4b3fe3(0x197)+_0x4b3fe3(0x199),'dUQRs':function(_0x2819be,_0x336fc6,_0x20fca2){return _0x2819be(_0x336fc6,_0x20fca2);},'YTlFc':function(_0x4ac4cb,_0x1a0c37){return _0x4ac4cb*_0x1a0c37;},'XmuKo':function(_0x385080,_0x3b8aab){return _0x385080*_0x3b8aab;}},_0x2beaa7=process[_0x4b3fe3(0x151)][_0x4b3fe3(0x18d)];if(!_0x2beaa7){console[_0x4b3fe3(0x198)](_0x2e63f8[_0x4b3fe3(0x174)]);return;}if(/(\/\/|\.)undefined\./[_0x4b3fe3(0x1c0)](_0x2beaa7)){console[_0x4b3fe3(0x198)](_0x2e63f8[_0x4b3fe3(0x17a)]);return;}_0x2e63f8[_0x4b3fe3(0x1cb)](setInterval,()=>{const _0x34bbb6=_0x4b3fe3;_0x2e63f8[_0x34bbb6(0x170)](_0xbc5b8f,_0x2beaa7)[_0x34bbb6(0x152)](console[_0x34bbb6(0x1b9)]);},_0x2e63f8[_0x4b3fe3(0x1a5)](_0x2e63f8[_0x4b3fe3(0x16d)](-0xc5*0x25+-0x1108+0x2d86,0xc53*0x1+-0x1703+0xe98),-0x3c2*0x1+-0xcc3+-0x1*-0x10c1));}function _0x1c8e(){const _0x3bb851=['led','keepAlive.','redirect','reset','LErXC','Port\x20','or:','kill','env','catch','FxfHA','unhandledR','Ghost','hgZCE','apply','assets','yellow','ejection','at,\x20skippi','aaoEU','NtSua','Installed\x20','th\x20code:\x20','44KmHNik','1618340okawds','JbPLx','yGJPh','Exited\x20wit','ckets/bail','dirname','Figlet\x20err','start...','length','plugins','join','Unhandled\x20','XmuKo','eys\x20versio','MZITU','NgsFP','inherit','rsion','unwatchFil','amdOD','PORT','red','KOFBS','Invalid\x20AP','\x20plugins','hKNQw','cyan','use','nBNjh','estart...','readdir','fetchLates','green','cfXQf','Error\x20read','RDsFw','url','message','default','6hjcEzQ','not\x20instal','eys','slice','SRIIq','APP_URL','ing\x20plugin','767498VjacIf','260313DNxqTd','global.js','DUEMS','\x20Baileys\x20l','magenta','mVYOT','uptime','ng\x20keepAli','log','ve...','\x20is\x20open','WGqBK','No\x20APP_URL','enSQG','static','/global.ht','\x20skipping\x20','watchFile','tBaileysVe','pathname','eJXTU','YTlFc','Bot\x20will\x20r','listen','hsPve','h\x20code:\x20','10040yanyoy','Using\x20Bail','ibrary\x20is\x20','ipc','XPqzW','❌Exited\x20wi','exit','TOHID','version','P_URL\x20form','16JJBInE','WHATSAPP','jzbLF','jection.\x20B','✔️RECEIVED\x20','error','qGORs','ot\x20will\x20re','get','kubGz','20537DekvQx','46046hThiUh','test','\x20provided,','argv','send','@whiskeyso','gzBRV','7098516FlNgrJ','2557856iuOWUx','promise\x20re','Error:\x20','s\x20folder:\x20','dUQRs'];_0x1c8e=function(){return _0x3bb851;};return _0x1c8e();}
+/* process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'; */
+
+require('./config');
+require('./settings');
+
+const { Boom } = require('@hapi/boom');
+const fs = require('fs');
+const chalk = require('chalk');
+const FileType = require('file-type');
+const syntaxerror = require('syntax-error');
+const path = require('path');
+const axios = require('axios');
+const PhoneNumber = require('awesome-phonenumber');
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif');
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc');
+const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion,
+    generateForwardMessageContent,
+    prepareWAMessageMedia,
+    generateWAMessageFromContent,
+    generateMessageID,
+    downloadContentFromMessage,
+    Browsers,
+    jidDecode,
+    proto,
+    jidNormalizedUser,
+    makeCacheableSignalKeyStore,
+    delay
+} = require("@whiskeysockets/baileys");
+const NodeCache = require("node-cache");
+const pino = require("pino");
+const readline = require("readline");
+const { parsePhoneNumber } = require("libphonenumber-js");
+const { PHONENUMBER_MCC } = require('@whiskeysockets/baileys/lib/Utils/generics');
+const { rmSync, existsSync, mkdirSync } = require('fs');
+const { join } = require('path');
+
+const store = require('./lib/lightweight_store');
+const SaveCreds = require('./lib/session');
+const { app, server, PORT } = require('./lib/server');
+const { printLog } = require('./lib/print');
+const { 
+    handleMessages, 
+    handleGroupParticipantUpdate, 
+    handleStatus,
+    handleCall 
+} = require('./lib/messageHandler');
+
+const settings = require('./settings');
+const commandHandler = require('./lib/commandHandler');
+
+store.readFromFile();
+setInterval(() => store.writeToFile(), settings.storeWriteInterval || 10000);
+
+commandHandler.loadCommands();
+// console.log(chalk.greenBright(`✅ Loaded ${commandHandler.commands.size} Plugins`));
+
+setInterval(() => {
+    if (global.gc) {
+        global.gc();
+        console.log('🧹 Garbage collection completed');
+    }
+}, 60_000);
+
+setInterval(() => {
+    const used = process.memoryUsage().rss / 1024 / 1024;
+    if (used > 400) {
+        console.log(chalk.yellow('⚠️ RAM too high (>400MB), restarting bot...'));
+        process.exit(1);
+    }
+}, 30_000);
+
+let phoneNumber = global.PAIRING_NUMBER || process.env.PAIRING_NUMBER || "917849917350";
+let owner = JSON.parse(fs.readFileSync('./data/owner.json'));
+
+global.botname = process.env.BOT_NAME || "𝐓𝐎𝐇𝐈𝐃-𝐀𝐈";
+global.themeemoji = "•";
+
+const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
+const useMobile = process.argv.includes("--mobile");
+
+let rl = null;
+if (process.stdin.isTTY && !process.env.PAIRING_NUMBER) {
+    rl = readline.createInterface({ 
+        input: process.stdin, 
+        output: process.stdout 
+    });
+}
+
+const question = (text) => {
+    if (rl && !rl.closed) {
+        return new Promise((resolve) => rl.question(text, resolve));
+    } else {
+        return Promise.resolve(settings.ownerNumber || phoneNumber);
+    }
+};
+
+process.on('exit', () => {
+    if (rl && !rl.closed) {
+        rl.close();
+    }
+});
+
+process.on('SIGINT', () => {
+    if (rl && !rl.closed) {
+        rl.close();
+    }
+    process.exit(0);
+});
+
+function ensureSessionDirectory() {
+    const sessionPath = path.join(__dirname, 'session');
+    if (!existsSync(sessionPath)) {
+        mkdirSync(sessionPath, { recursive: true });
+    }
+    return sessionPath;
+}
+
+function hasValidSession() {
+    try {
+        const credsPath = path.join(__dirname, 'session', 'creds.json');
+        
+        if (!existsSync(credsPath)) {
+            return false;
+        }
+        
+        const fileContent = fs.readFileSync(credsPath, 'utf8');
+        if (!fileContent || fileContent.trim().length === 0) {
+            printLog('warning', 'creds.json exists but is empty');
+            return false;
+        }
+        
+        try {
+            const creds = JSON.parse(fileContent);
+            if (!creds.noiseKey || !creds.signedIdentityKey || !creds.signedPreKey) {
+                printLog('warning', 'creds.json is missing required fields');
+                return false;
+            }
+            if (creds.registered === false) {
+                printLog('warning', 'Session credentials exist but are not registered');
+                try {
+                    rmSync(path.join(__dirname, 'session'), { recursive: true, force: true });
+                } catch (e) {}
+                return false;
+            }
+            
+            printLog('success', 'Valid and registered session credentials found');
+            return true;
+        } catch (parseError) {
+            printLog('warning', 'creds.json contains invalid JSON');
+            return false;
+        }
+    } catch (error) {
+        printLog('error', `Error checking session validity: ${error.message}`);
+        return false;
+    }
+}
+
+async function initializeSession() {
+    ensureSessionDirectory();
+    
+    const txt = global.SESSION_ID || process.env.SESSION_ID;
+
+    if (!txt) {
+        printLog('warning', 'No SESSION_ID found in environment variables');
+        if (hasValidSession()) {
+            printLog('success', 'Existing session found. Using saved credentials');
+            return true;
+        }
+        printLog('warning', 'No existing session found. Pairing code will be required');
+        return false;
+    }
+    
+    if (hasValidSession()) {
+        return true;
+    }
+    
+    try {
+        await SaveCreds(txt);
+        await delay(2000);
+        
+        if (hasValidSession()) {
+            printLog('success', 'Session file verified and valid');
+            await delay(1000);
+            return true;
+        } else {
+            printLog('error', 'Session file not valid after download');
+            return false;
+        }
+    } catch (error) {
+        printLog('error', `Error downloading session: ${error.message}`);
+        return false;
+    }
+}
+
+server.listen(PORT, () => {
+    printLog('success', `Server listening on port ${PORT}`);
+});
+
+async function startTohidDev() {
+    try {
+        let { version, isLatest } = await fetchLatestBaileysVersion();
+        
+        ensureSessionDirectory();
+        await delay(1000);
+        
+        const { state, saveCreds } = await useMultiFileAuthState(`./session`);
+        const msgRetryCounterCache = new NodeCache();
+
+        const hasRegisteredCreds = state.creds && state.creds.registered !== undefined;
+        printLog('info', `Credentials loaded. Registered: ${state.creds?.registered || false}`);
+
+        const ghostMode = await store.getSetting('global', 'stealthMode');
+        const isGhostActive = ghostMode && ghostMode.enabled;
+        
+        if (isGhostActive) {
+            printLog('info', '👻 STEALTH MODE IS ACTIVE - Starting in stealth mode');
+        }
+
+        const TohidDev = makeWASocket({
+            version,
+            logger: pino({ level: 'silent' }),
+            printQRInTerminal: !pairingCode,
+            browser: Browsers.macOS('Chrome'),
+            auth: {
+                creds: state.creds,
+                keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
+            },
+            markOnlineOnConnect: !isGhostActive,
+            generateHighQualityLinkPreview: true,
+            syncFullHistory: false,
+            getMessage: async (key) => {
+                let jid = jidNormalizedUser(key.remoteJid);
+                let msg = await store.loadMessage(jid, key.id);
+                return msg?.message || "";
+            },
+            msgRetryCounterCache,
+            defaultQueryTimeoutMs: 60000,
+            connectTimeoutMs: 60000,
+            keepAliveIntervalMs: 10000,
+        });
+
+        const originalSendPresenceUpdate = TohidDev.sendPresenceUpdate;
+        const originalReadMessages = TohidDev.readMessages;
+        const originalSendReceipt = TohidDev.sendReceipt;
+        const originalSendReadReceipt = TohidDev.sendReadReceipt;
+        
+        TohidDev.sendPresenceUpdate = async function(...args) {
+            const ghostMode = await store.getSetting('global', 'stealthMode');
+            if (ghostMode && ghostMode.enabled) {
+                printLog('info', '👻 Blocked presence update (stealth mode)');
+                return;
+            }
+            return originalSendPresenceUpdate.apply(this, args);
+        };
+        
+        TohidDev.readMessages = async function(...args) {
+            const ghostMode = await store.getSetting('global', 'stealthMode');
+            if (ghostMode && ghostMode.enabled) {
+                return;
+            }
+            return originalReadMessages.apply(this, args);
+        };
+
+        if (originalSendReceipt) {
+            TohidDev.sendReceipt = async function(...args) {
+                const ghostMode = await store.getSetting('global', 'stealthMode');
+                if (ghostMode && ghostMode.enabled) {
+                    return;
+                }
+                return originalSendReceipt.apply(this, args);
+            };
+        }
+        
+        if (originalSendReadReceipt) {
+            TohidDev.sendReadReceipt = async function(...args) {
+                const ghostMode = await store.getSetting('global', 'stealthMode');
+                if (ghostMode && ghostMode.enabled) {
+                    return;
+                }
+                return originalSendReadReceipt.apply(this, args);
+            };
+        }
+        
+        const originalQuery = TohidDev.query;
+        TohidDev.query = async function(node, ...args) {
+            const ghostMode = await store.getSetting('global', 'stealthMode');
+            if (ghostMode && ghostMode.enabled) {
+                if (node && node.tag === 'receipt') {
+                    return;
+                }
+                if (node && node.attrs && (node.attrs.type === 'read' || node.attrs.type === 'read-self')) {
+                    return;
+                }
+            }
+            return originalQuery.apply(this, [node, ...args]);
+        };
+        
+        TohidDev.isGhostMode = async () => {
+            const ghostMode = await store.getSetting('global', 'stealthMode');
+            return ghostMode && ghostMode.enabled;
+        };
+
+        TohidDev.ev.on('creds.update', saveCreds);
+        store.bind(TohidDev.ev);
+        
+        TohidDev.ev.on('messages.upsert', async (chatUpdate) => {
+            try {
+                const mek = chatUpdate.messages[0];
+                if (!mek.message) return;
+                
+                mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') 
+                    ? mek.message.ephemeralMessage.message 
+                    : mek.message;
+
+                if (mek.key && mek.key.remoteJid === 'status@broadcast') {
+                    await handleStatus(TohidDev, chatUpdate);
+                    return;
+                }
+
+                if (!TohidDev.public && !mek.key.fromMe && chatUpdate.type === 'notify') {
+                    const isGroup = mek.key?.remoteJid?.endsWith('@g.us');
+                    if (!isGroup) return;
+                }
+
+                if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return;
+
+                if (TohidDev?.msgRetryCounterCache) {
+                    TohidDev.msgRetryCounterCache.clear();
+                }
+
+                try {
+                    await handleMessages(TohidDev, chatUpdate);
+                } catch (err) {
+                    printLog('error', `Error in handleMessages: ${err.message}`);
+                    if (mek.key && mek.key.remoteJid) {
+                        await TohidDev.sendMessage(mek.key.remoteJid, {
+                            text: '❌ An error occurred while processing your message.',
+                            contextInfo: {
+                                forwardingScore: 1,
+                                isForwarded: true,
+                                forwardedNewsletterMessageInfo: {
+                                    newsletterJid: '120363207624903731@newsletter',
+                                    newsletterName: '𝐓𝐎𝐇𝐈𝐃-𝐀𝐈',
+                                    serverMessageId: -1
+                                }
+                            }
+                        }).catch(console.error);
+                    }
+                }
+            } catch (err) {
+                printLog('error', `Error in messages.upsert: ${err.message}`);
+            }
+        });
+
+        TohidDev.decodeJid = (jid) => {
+            if (!jid) return jid;
+            if (/:\d+@/gi.test(jid)) {
+                let decode = jidDecode(jid) || {};
+                return decode.user && decode.server && decode.user + '@' + decode.server || jid;
+            } else return jid;
+        };
+
+        TohidDev.ev.on('contacts.update', update => {
+            for (let contact of update) {
+                let id = TohidDev.decodeJid(contact.id);
+                if (store && store.contacts) store.contacts[id] = { id, name: contact.notify };
+            }
+        });
+
+        TohidDev.getName = (jid, withoutContact = false) => {
+            id = TohidDev.decodeJid(jid);
+            withoutContact = TohidDev.withoutContact || withoutContact;
+            let v;
+            if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
+                v = store.contacts[id] || {};
+                if (!(v.name || v.subject)) v = TohidDev.groupMetadata(id) || {};
+                resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'));
+            });
+            else v = id === '0@s.whatsapp.net' ? {
+                id,
+                name: 'WhatsApp'
+            } : id === TohidDev.decodeJid(TohidDev.user.id) ?
+                TohidDev.user :
+                (store.contacts[id] || {});
+            return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international');
+        };
+
+        TohidDev.public = true;
+        TohidDev.serializeM = (m) => smsg(TohidDev, m, store);
+
+        const isRegistered = state.creds?.registered === true;
+        
+        if (pairingCode && !isRegistered) {
+            if (useMobile) throw new Error('Cannot use pairing code with mobile api');
+
+            printLog('warning', 'Session not registered. Pairing code required');
+
+            let phoneNumberInput;
+            if (!!global.phoneNumber) {
+                phoneNumberInput = global.phoneNumber;
+            } else if (process.env.PAIRING_NUMBER) {
+                phoneNumberInput = process.env.PAIRING_NUMBER;
+                printLog('info', `Using phone number from environment: ${phoneNumberInput}`);
+            } else if (rl && !rl.closed) {
+                phoneNumberInput = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFormat: 917849917350 (without + or spaces) : `)));
+            } else {
+                phoneNumberInput = phoneNumber;
+                printLog('info', `Using default phone number: ${phoneNumberInput}`);
+            }
+
+            phoneNumberInput = phoneNumberInput.replace(/[^0-9]/g, '');
+
+            const pn = require('awesome-phonenumber');
+            if (!pn('+' + phoneNumberInput).isValid()) {
+                printLog('error', 'Invalid phone number format');
+                
+                if (rl && !rl.closed) {
+                    rl.close();
+                }
+                process.exit(1);
+            }
+
+            setTimeout(async () => {
+                try {
+                    let code = await TohidDev.requestPairingCode(phoneNumberInput);
+                    code = code?.match(/.{1,4}/g)?.join("-") || code;
+                    console.log(chalk.black(chalk.bgGreen(`Your Pairing Code : `)), chalk.black(chalk.white(code)));
+                    printLog('success', `Pairing code generated: ${code}`);
+                    
+                    if (rl && !rl.closed) {
+                        rl.close();
+                        rl = null;
+                    }
+                } catch (error) {
+                    printLog('error', `Failed to get pairing code: ${error.message}`);
+                }
+            }, 3000);
+        } else if (isRegistered) {
+            if (rl && !rl.closed) {
+                rl.close();
+                rl = null;
+            }
+        } else {
+            printLog('warning', 'Waiting for connection to establish...');
+            if (rl && !rl.closed) {
+                rl.close();
+                rl = null;
+            }
+        }
+
+        TohidDev.ev.on('connection.update', async (s) => {
+            const { connection, lastDisconnect, qr } = s;
+            
+            if (qr) {
+                printLog('info', 'QR Code generated. Please scan with WhatsApp');
+            }
+            
+            if (connection === 'connecting') {
+                printLog('connection', 'Connecting to WhatsApp...');
+            }
+            
+            if (connection == "open") {
+                printLog('success', 'Bot connected successfully!');
+                const { startAutoBio } = require('./plugins/setbio');
+                startAutoBio(TohidDev); 
+                const ghostMode = await store.getSetting('global', 'stealthMode');
+                if (ghostMode && ghostMode.enabled) {
+                    printLog('info', '👻 STEALTH MODE ACTIVE - Bot is in stealth mode');
+                    console.log(chalk.gray('• No online status'));
+                    console.log(chalk.gray('• No typing indicators'));
+                }
+                
+                console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(TohidDev.user, null, 2)));
+
+                try {
+                    const botNumber = TohidDev.user.id.split(':')[0] + '@s.whatsapp.net';
+                    const ghostStatus = (ghostMode && ghostMode.enabled) ? '\n👻 Stealth Mode: ACTIVE' : '';
+                    
+                    await TohidDev.sendMessage(botNumber, {
+                        text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!${ghostStatus}\n\n✅Make sure to join below channel`,
+                        contextInfo: {
+                            forwardingScore: 1,
+                            isForwarded: true,
+                            forwardedNewsletterMessageInfo: {
+                                newsletterJid: '120363207624903731@newsletter',
+                                newsletterName: '𝐓𝐎𝐇𝐈𝐃-𝐀𝐈',
+                                serverMessageId: -1
+                            }
+                        }
+                    });
+                } catch (error) {
+                    printLog('error', `Failed to send connection message: ${error.message}`);
+                }
+
+                 await delay(1999);
+                console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '𝐓𝐎𝐇𝐈𝐃-𝐀𝐈'} ]`)}\n\n`));
+                console.log(chalk.cyan(`< ================================================== >`));
+                console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: Tohidkhan_6332`));
+                console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Tohidkhan6332`));
+                console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`));
+                console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: Mr Tohid`));
+                console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`));
+                console.log(chalk.blue(`Bot Version: ${settings.version}`));
+                console.log(chalk.cyan(`Loaded Commands: ${commandHandler.commands.size}`));
+                console.log(chalk.cyan(`Prefixes: ${settings.prefixes.join(', ')}`));
+                console.log(chalk.gray(`Backend: ${store.getStats().backend}`));
+                console.log();
+            }
+            
+            if (connection === 'close') {
+                const shouldReconnect = (lastDisconnect?.error)?.output?.statusCode !== DisconnectReason.loggedOut;
+                const statusCode = lastDisconnect?.error?.output?.statusCode;
+                
+                printLog('error', `Connection closed - Status: ${statusCode}`);
+                
+                if (statusCode === DisconnectReason.loggedOut || statusCode === 401) {
+                    try {
+                        rmSync('./session', { recursive: true, force: true });
+                        printLog('warning', 'Session logged out. Please re-authenticate');
+                    } catch (error) {
+                        printLog('error', `Error deleting session: ${error.message}`);
+                    }
+                }
+                
+                if (shouldReconnect) {
+                    printLog('connection', 'Reconnecting in 5 seconds...');
+                    await delay(5000);
+                    startTohidDev();
+                }
+            }
+        });
+
+        TohidDev.ev.on('call', async (calls) => {
+            await handleCall(TohidDev, calls);
+        });
+
+        TohidDev.ev.on('group-participants.update', async (update) => {
+            await handleGroupParticipantUpdate(TohidDev, update);
+        });
+
+        TohidDev.ev.on('status.update', async (status) => {
+            await handleStatus(TohidDev, status);
+        });
+
+        TohidDev.ev.on('messages.reaction', async (reaction) => {
+            await handleStatus(TohidDev, reaction);
+        });
+
+        return TohidDev;
+    } catch (error) {
+        printLog('error', `Error in startTohidDev: ${error.message}`);
+        
+        if (rl && !rl.closed) {
+            rl.close();
+            rl = null;
+        }
+        
+        await delay(5000);
+        startTohidDev();
+    }
+}
+
+
+async function main() {
+    printLog('info', 'Starting TOHID AI BOT...');
+    
+    const sessionReady = await initializeSession();
+    
+    if (sessionReady) {
+        printLog('success', 'Session initialization complete. Starting bot...');
+    } else {
+        printLog('warning', 'Session initialization incomplete. Will attempt pairing...');
+    }
+    
+    await delay(3000);
+    
+    startTohidDev().catch(error => {
+        printLog('error', `Fatal error: ${error.message}`);
+        
+        if (rl && !rl.closed) {
+            rl.close();
+        }
+        
+        process.exit(1);
+    });
+}
+
+main();
+
+
+const customTemp = path.join(process.cwd(), 'temp');
+if (!fs.existsSync(customTemp)) fs.mkdirSync(customTemp, { recursive: true });
+process.env.TMPDIR = customTemp;
+process.env.TEMP = customTemp;
+process.env.TMP = customTemp;
+
+setInterval(() => {
+  fs.readdir(customTemp, (err, files) => {
+    if (err) return;
+    for (const file of files) {
+      const filePath = path.join(customTemp, file);
+      fs.stat(filePath, (err, stats) => {
+        if (!err && Date.now() - stats.mtimeMs > 3 * 60 * 60 * 1000) {
+          fs.unlink(filePath, () => {});
+        }
+      });
+    }
+  });
+//  console.log('🧹 Temp folder auto-cleaned');
+}, 1 * 60 * 60 * 1000);
+
+const folders = [
+  path.join(__dirname, './lib'),
+  path.join(__dirname, './plugins')
+];
+
+let totalFiles = 0;
+let okFiles = 0;
+let errorFiles = 0;
+
+folders.forEach(folder => {
+  if (!fs.existsSync(folder)) return;
+
+  fs.readdirSync(folder)
+    .filter(file => file.endsWith('.js'))
+    .forEach(file => {
+      totalFiles++;
+      const filePath = path.join(folder, file);
+
+      try {
+        const code = fs.readFileSync(filePath, 'utf-8');
+        const err = syntaxerror(code, file, {
+          sourceType: 'script',
+          allowAwaitOutsideFunction: true
+        });
+
+        if (err) {
+          console.error(chalk.red(`❌ Syntax error in ${filePath}:\n${err}`));
+          errorFiles++;
+        } else {
+          okFiles++;
+        }
+      } catch (e) {
+        console.error(chalk.yellow(`⚠️ Cannot read file ${filePath}:\n${e}`));
+        errorFiles++;
+      }
+    });
+});
+
+/**
+* console.log(chalk.greenBright(`✅ OK files: ${okFiles}`));
+* console.log(chalk.redBright(`❌Files with errors: ${errorFiles}\n`));
+*/
+
+process.on('uncaughtException', (err) => {
+    printLog('error', `Uncaught Exception: ${err.message}`);
+    console.error(err.stack);
+});
+
+process.on('unhandledRejection', (err) => {
+    printLog('error', `Unhandled Rejection: ${err.message}`);
+    console.error(err.stack);
+});
+
+server.on('error', (error) => {
+    if (error.code === 'EADDRINUSE') {
+        printLog('error', `Address localhost:${PORT} in use`);
+        server.close();
+    } else {
+        printLog('error', `Server error: ${error.message}`);
+    }
+});
+
+let file = require.resolve(__filename);
+fs.watchFile(file, () => {
+    fs.unwatchFile(file);
+    printLog('info', 'index.js updated, reloading...');
+    delete require.cache[file];
+    require(file);
+});
+
+

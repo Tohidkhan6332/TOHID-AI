@@ -1,45 +1,26 @@
 {
-  "name": "whatsapp-Automation",
-  "description": " Whatsapp Ai",
-  "repository": "https://github.com/Tohidkhan6332/TOHID-AI",
-  "logo": "https://i.imgur.com/M1BzE37.jpeg",
-  "success_url": "https://github.com/Tohidkhan6332/TOHID-AI",
+  "name": "TOHID-AI",
+  "description": "TOHID-AI – A fast, intelligent, and scalable multi-device WhatsApp bot engineered for performance and automation",
   "keywords": [
-    "whatsapp Ai", "nodejs", "heroku", "bot", "urdu", "english", "indonesian", "hindi", "portuguese", "italian", "french", "whatsapp",
-    "termux", "superbot", "multi-device", "md", "official", "javascript", "tohid-ai-bot"
+    "whatsapp Bot"
   ],
   "repository": "https://github.com/Tohidkhan6332/TOHID-AI",
   "stack": "container",
   "env": {
-    "OWNERS": {
-      "description": "owner number",
-      "required": true,
-      "value": "917849917350"
-    },
-    "BOTNAME": {
-      "description": "Give your BOT a name",
-      "required": true,
-      "value": "TOHID-AI"
-    },
-    "DATABASE_URL": {
-      "description": "your mongodb database url",
+    "MONGO_URL": {
+      "description": "Put if you have mongodb database url",
       "required": false,
       "value": ""
     },
-    "SESSION_ID": {
-      "description": "your session id",
-      "required": true,
+    "MYSQL_URL": {
+      "description": "Put if you have mysql database url",
+      "required": false,
       "value": ""
     },
-    "MODE": {
-      "description": "mode public or private",
-      "required": true,
-      "value": "public"
-    },
-    "PREFIX": {
-      "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
+    "POSTGRES_URL": {
+      "description": "Put if you have postgres database url",
       "required": false,
-      "value": "."
+      "value": ""
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -51,48 +32,13 @@
       "required": true,
       "value": ""
     },
-    "statusview": {
-      "description": "make it true if you want bot to view status",
-      "required": false,
-      "value": "true"
-    },
-    "antidelete": {
-      "description": "bot will forward deleted messages if you make it true",
-      "required": false,
-      "value": "true"
-    },
-    "HOBBIES": {
-      "description": "owners hobby for intro card",
-      "required": false,
-      "value": "CODING"
-    },
-    "LANGUAGE": {
-      "description": "owners native language for intro",
-      "required": false,
-      "value": "ENGLISH"
-    },
-    "OWNER_SKILLS": {
-      "description": "skills for intro",
-      "required": false,
-      "value": "JAVASCRIPT"
-    },
-    "OWNER_STATUS": {
-      "description": "current status for intro",
-      "required": false,
-      "value": "DEVELOPER"
-    },
-    "TIME_ZONE": {
-      "description": "your time zone",
+    "SESSION_ID": {
+      "description": "Put your session id",
       "required": true,
-      "value": "India/Haryana"
-    },
-    "OWNER_NAME": {
-      "description": "your owner Name",
-      "required": false,
-      "value": "Mr Tohid"
+      "value": ""
     },
      "REMOVEBG_KEY": {
-      "description": "your Remove background api key",
+      "description": "Put your Remove background api key",
       "required": false,
       "value": ""
     }

@@ -1,19 +1,10 @@
-FROM node:20-buster
+FROM quay.io/qasimtech/mega-bot:latest
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+WORKDIR /root/tohid-ai
 
-COPY package.json .
-
-RUN npm install && npm install qrcode-terminal
-
-COPY . .
+RUN git clone https://github.com/Tohidkhan6332/TOHID-AI . && \
+    npm install
 
 EXPOSE 5000
 
-CMD ["node", "index.js"]
+CMD ["npm", "start"]
