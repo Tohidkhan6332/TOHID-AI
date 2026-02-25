@@ -3,6 +3,8 @@
   "groups": [],
   "antilink": {},
   "antibadword": {},
+  "antitag": {},
+  "antistatus": {},
   "warnings": {},
   "sudo": [],
   "welcome": {},
