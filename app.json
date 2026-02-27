@@ -1,12 +1,17 @@
 {
   "name": "TOHID-AI",
-  "description": "TOHID-AI – A fast, intelligent, and scalable multi-device WhatsApp bot engineered for performance and automation",
+  "description": " TOHID-AI – A fast, intelligent, and scalable multi-device WhatsApp bot engineered for performance and automation",
   "keywords": [
     "whatsapp Bot"
   ],
   "repository": "https://github.com/Tohidkhan6332/TOHID-AI",
   "stack": "container",
   "env": {
+    "SESSION_ID": {
+      "description": "Put your session id",
+      "required": true,
+      "value": ""
+    },
     "MONGO_URL": {
       "description": "Put if you have mongodb database url",
       "required": false,
@@ -22,22 +27,42 @@
       "required": false,
       "value": ""
     },
-     "HKEY": {
-      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
-      "value": ""
+     "PREFIXES=": {
+      "description": "One or more prefixes splited by comma",
+      "required": false,
+      "value": "."
     },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
+     "PACKNAME": {
+      "description": "Your sticker pack name",
+      "required": false,
+      "value": "TOHID-AI"
     },
-    "SESSION_ID": {
-      "description": "Put your session id",
-      "required": true,
-      "value": ""
+    "BOT_NAME": {
+      "description": "Your bot name",
+      "required": false,
+      "value": "TOHID-AI"
     },
-     "REMOVEBG_KEY": {
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number",
+      "required": false,
+      "value": "917849917350"
+    },
+    "COMMAND_MODE": {
+      "description": "Bot mode",
+      "required": false,
+      "value": "public"
+    },
+    "BOT_OWNER": {
+      "description": "Owner name",
+      "required": false,
+      "value": "𝕄𝕣 𝕋𝕠𝕙𝕚𝕕"
+    },
+    "TIMEZONE": {
+      "description": "Your time zone",
+      "required": false,
+      "value": "Asia/Kolkata"
+    },
+    "REMOVEBG_KEY": {
       "description": "Put your Remove background api key",
       "required": false,
       "value": ""
