@@ -1,0 +1,15 @@
+{
+  "name": "tohid-ai-pairing-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.14",
+    "@hapi/boom": "^10.0.1",
+    "express": "^4.22.1",
+    "pino": "^9.7.0",
+    "qrcode": "^1.5.4"
+  }
+}
